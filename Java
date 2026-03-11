@@ -1,0 +1,10 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const btn = document.createElement("button");
+    btn.textContent = "Click me!";
+    btn.classList.add("btn", "btn-success", "my-3");
+    document.body.appendChild(btn);
+
+    btn.addEventListener("click", () => {
+        alert("Hello! This is interactive JavaScript!");
+    });
+});
