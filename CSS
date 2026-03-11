@@ -1,0 +1,19 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: url('../images/your-image.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
